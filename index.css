@@ -1,0 +1,148 @@
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+
+/*___________Row 3________*/
+.red3 {
+  width: 80px;
+  background-color: red;
+}
+.blue3 {
+  width: 80px;
+  background-color: blue;
+}
+.row3 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+/*___________Row 4________*/
+.red4 {
+  flex: 1;
+  background-color: red;
+}
+.blue4 {
+  width: 80px;
+  background-color: blue;
+}
+.row4 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+/*___________Row 5________*/
+.row5 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.red5 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+/*___________Row 6________*/
+.row6 {
+  display: flex;
+  flex: 1;
+}
+.red6 {
+  flex: 1;
+  background-color: red;
+}
+.blue6 {
+  width: 80px;
+  background-color: blue;
+}
+
+/*___________Row 7________*/
+.red7 {
+  width: 80px;
+  background-color: red;
+}
+.blues7 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.blue7 {
+  height: 20px;
+  background-color: blue;
+}
+.row7 {
+  display: flex;
+  flex: 1;
+}
+
+/*___________Row 8________*/
+.row8 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.yellow8 {
+  background-color: yellow;
+  width: 80px;
+}
+
+/*___________Row 9________*/
+.row9 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.yellow9 {
+  background-color: yellow;
+  flex: 1;
+  margin-left: 10px;
+}
+.first {
+  margin-left: 0;
+}
